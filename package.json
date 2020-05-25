@@ -42,16 +42,16 @@
     },
     "repository": {
       "type": "git",
-      "url": "git://github.com/Ikuyadeu/tokenizer.git"
+      "url": "git://github.com/devreplay/source-code-tokenizer.git"
     },
     "keywords": [
       "tokenizer"
     ],
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/Ikuyadeu/tokenizer/issues"
+      "url": "https://github.com/devreplay/source-code-tokenizer/issues"
     },
-    "homepage": "https://github.com/Ikuyadeu/tokenizer#readme",
+    "homepage": "https://github.com/devreplay/source-code-tokenizer#readme",
     "author": "Yuki Ueda",
     "private": false
   }

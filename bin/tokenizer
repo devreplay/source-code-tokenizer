@@ -2,6 +2,9 @@
 
 'use strict';
 
+// to use V8's code cache to speed up instantiation time
+require('v8-compile-cache');
+
 /**
  * Get the error message of a given value.
  * @param {any} error The value to get.

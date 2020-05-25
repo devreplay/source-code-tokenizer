@@ -1,6 +1,6 @@
 {
     "name": "source-code-tokenizer",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Source code tokenizer powered by vscode",
     "bin": {
       "tokenizer": "./bin/tokenizer"

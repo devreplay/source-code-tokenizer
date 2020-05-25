@@ -1,6 +1,6 @@
 {
     "name": "source-code-tokenizer",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Source code tokenizer powered by vscode",
     "bin": {
       "devreplay": "./bin/tokenizer"
@@ -22,7 +22,6 @@
       "commander": "^5.1.0",
       "text-table": "0.2.0",
       "tslib": "^1.11.1",
-      "tsutils": "^3.17.1",
       "vscode-textmate": "^5.1.1",
       "onigasm": "2.2.4"
     },

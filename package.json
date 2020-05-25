@@ -1,0 +1,58 @@
+{
+    "name": "source-code-tokenizer",
+    "version": "0.0.1",
+    "description": "Source code tokenizer powered by vscode",
+    "main": "./lib/index.js",
+    "typings": "./lib/index.d.ts",
+    "scripts": {
+      "clean": "rimraf lib",
+      "create": "npm run build && npm run test",
+      "compile": "tsc -p src",
+      "publish:local": "sh ./scripts/npmPublish.sh",
+      "test": "node ./bin/tokenizer target.js",
+      "test:all": "yarn run test && yarn run test:dir && yarn run test:fix",
+      "refresh": "rm -rf ./node_modules ./package-lock.json && npm install",
+      "verify": "npm-run-all clean compile"
+    },
+    "dependencies": {
+      "builtin-modules": "^3.1.0",
+      "commander": "^5.1.0",
+      "text-table": "0.2.0",
+      "tslib": "^1.11.1",
+      "tsutils": "^3.17.1",
+      "vscode-textmate": "^5.1.1",
+      "onigasm": "2.2.4"
+    },
+    "devDependencies": {
+      "@types/node": "^13.13.4",
+      "@types/rimraf": "^3.0.0",
+      "@typescript-eslint/eslint-plugin": "^2.30.0",
+      "@typescript-eslint/parser": "^2.30.0",
+      "eslint": "^6.8.0",
+      "eslint-plugin-import": "^2.20.2",
+      "eslint-plugin-jsdoc": "^24.0.0",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-promise": "^4.2.1",
+      "npm-run-all": "^4.1.5",
+      "rimraf": "^3.0.2",
+      "typescript": "^3.8.3"
+    },
+    "engines": {
+      "node": ">=10.15.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/Ikuyadeu/tokenizer.git"
+    },
+    "keywords": [
+      "tokenizer"
+    ],
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Ikuyadeu/tokenizer/issues"
+    },
+    "homepage": "https://github.com/Ikuyadeu/tokenizer#readme",
+    "author": "Yuki Ueda",
+    "private": false
+  }
+  

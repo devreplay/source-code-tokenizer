@@ -1,0 +1,70 @@
+[
+    {
+        "id": "c",
+        "path": "cpp/syntaxes/c.tmLanguage.json"
+    },
+    {
+        "id": "cpp",
+        "path": "cpp/syntaxes/cpp.tmLanguage.json"
+    },
+    {
+        "id": "csharp",
+        "path": "csharp/syntaxes/csharp.tmLanguage.json"
+    },
+    {
+        "id": "go",
+        "path": "go/syntaxes/go.tmLanguage.json"
+    },
+    {
+        "id": "html",
+        "path": "html/syntaxes/html.tmLanguage.json"
+    },
+    {
+        "id": "java",
+        "path": "java/syntaxes/java.tmLanguage.json"
+    },
+    {
+        "id": "js",
+        "path": "javascript/syntaxes/JavaScript.tmLanguage.json"
+    },
+    {
+        "id": "json",
+        "path": "json/syntaxes/JSON.tmLanguage.json"
+    },
+    {
+        "id": "perl",
+        "path": "perl/syntaxes/perl.tmLanguage.json"
+    },
+    {
+        "id": "perl.6",
+        "path": "perl/syntaxes/perl6.tmLanguage.json"
+    },
+    {
+        "id": "php",
+        "path": "php/syntaxes/php.tmLanguage.json"
+    },
+    {
+        "id": "python",
+        "path": "python/syntaxes/MagicPython.tmLanguage.json"
+    },
+    {
+        "id": "r",
+        "path": "r/syntaxes/r.tmLanguage.json"
+    },
+    {
+        "id": "ruby",
+        "path": "ruby/syntaxes/ruby.tmLanguage.json"
+    },
+    {
+        "id": "rust",
+        "path": "rust/syntaxes/rust.tmLanguage.json"
+    },
+    {
+        "id": "swift",
+        "path": "swift/syntaxes/swift.tmLanguage.json"
+    },
+    {
+        "id": "ts",
+        "path": "typescript-basics/syntaxes/TypeScript.tmLanguage.json"
+    }
+]

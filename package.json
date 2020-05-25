@@ -3,7 +3,7 @@
     "version": "0.0.3",
     "description": "Source code tokenizer powered by vscode",
     "bin": {
-      "devreplay": "./bin/tokenizer"
+      "tokenizer": "./bin/tokenizer"
     },
     "main": "./lib/index.js",
     "typings": "./lib/index.d.ts",

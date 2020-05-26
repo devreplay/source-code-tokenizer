@@ -57,7 +57,7 @@ export async function tokenize(text: string, source: string, beforeRuleStack?: v
         for (const token of lineTokens.tokens) {
             tokens.push({
                 scopes: token.scopes,
-                value: text.substring(token.startIndex, token.endIndex),
+                value: line.substring(token.startIndex, token.endIndex),
                 line: lineNum,
                 columns: {start: token.startIndex+1, end: token.endIndex+1}
             });

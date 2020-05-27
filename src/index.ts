@@ -12,7 +12,8 @@ export interface IToken {
 }
 
 function getOniguruma(): Promise<vsctm.IOnigLib> {
-    const wasmBin = fs.readFileSync(path.join(__dirname, '../node_modules/onigasm/lib/onigasm.wasm')).buffer;
+    const onigasmIndexpath = require.resolve('onigasm');
+    const wasmBin = fs.readFileSync(path.join(onigasmIndexpath, '../onigasm.wasm')).buffer;
     const onigasmLib = (<Promise<any>>loadWASM(wasmBin)).then((_: any) => {
         return {
             createOnigScanner(patterns: string[]) { return new OnigScanner(patterns); },

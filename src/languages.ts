@@ -1,8 +1,8 @@
-interface IGrammarPath {
+interface GrammarPath {
     [key: string]: string;
 }
 
-export const grammarPaths: IGrammarPath = {
+export const grammarPaths: GrammarPath = {
     'source.c': 'c.tmLanguage.json',
     'source.cpp': 'cpp.tmLanguage.json',
     'source.csharp': 'csharp.tmLanguage.json',

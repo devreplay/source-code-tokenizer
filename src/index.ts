@@ -4,7 +4,7 @@ import { OnigScanner, OnigString, loadWASM } from 'onigasm';
 import { grammarPaths } from "./languages";
 const path = require('path');
 
-export interface IToken {
+export interface Token {
     scopes: string[];
     value: string;
     line: number;
@@ -40,7 +40,7 @@ const registry = new vsctm.Registry({
 });
 
 export async function tokenize(text: string, source: string, beforeRuleStack?: vsctm.StackElement) {
-    const tokens: IToken[] = [];
+    const tokens: Token[] = [];
     let ruleStack = vsctm.INITIAL;
     if (beforeRuleStack) {
         ruleStack = beforeRuleStack;
